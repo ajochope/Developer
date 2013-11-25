@@ -1,0 +1,1 @@
+java -classpath bin es.core.whatsapp.test.SenderTest

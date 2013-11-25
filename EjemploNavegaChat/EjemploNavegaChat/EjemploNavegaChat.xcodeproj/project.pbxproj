@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB591C21796EBD800BE6C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB591C11796EBD800BE6C7B /* Foundation.framework */; };
+		3FB591C41796EBD800BE6C7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB591C31796EBD800BE6C7B /* CoreGraphics.framework */; };
+		3FB591C61796EBD800BE6C7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB591C51796EBD800BE6C7B /* UIKit.framework */; };
+		3FB591CC1796EBD800BE6C7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FB591CA1796EBD800BE6C7B /* InfoPlist.strings */; };
+		3FB591CE1796EBD800BE6C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB591CD1796EBD800BE6C7B /* main.m */; };
+		3FB591D21796EBD800BE6C7B /* NavegacionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB591D11796EBD800BE6C7B /* NavegacionAppDelegate.m */; };
+		3FB591D81796EBD800BE6C7B /* NavegacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB591D71796EBD800BE6C7B /* NavegacionViewController.m */; };
+		3FB591DA1796EBD800BE6C7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB591D91796EBD800BE6C7B /* Images.xcassets */; };
+		3FB591E11796EBD900BE6C7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB591E01796EBD800BE6C7B /* XCTest.framework */; };
+		3FB591E21796EBD900BE6C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB591C11796EBD800BE6C7B /* Foundation.framework */; };
+		3FB591E31796EBD900BE6C7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB591C51796EBD800BE6C7B /* UIKit.framework */; };
+		3FB591EB1796EBD900BE6C7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FB591E91796EBD900BE6C7B /* InfoPlist.strings */; };
+		3FB591ED1796EBD900BE6C7B /* EjemploNavegaChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB591EC1796EBD900BE6C7B /* EjemploNavegaChatTests.m */; };
+		3FB591F91796F20100BE6C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB591D31796EBD800BE6C7B /* Main.storyboard */; };
+		3FB591FE17970A5F00BE6C7B /* chatPantallaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB591FD17970A5F00BE6C7B /* chatPantallaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB591E41796EBD900BE6C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB591B61796EBD800BE6C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB591BD1796EBD800BE6C7B;
+			remoteInfo = EjemploNavegaChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB591BE1796EBD800BE6C7B /* EjemploNavegaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploNavegaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB591C11796EBD800BE6C7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FB591C31796EBD800BE6C7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FB591C51796EBD800BE6C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FB591C91796EBD800BE6C7B /* EjemploNavegaChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploNavegaChat-Info.plist"; sourceTree = "<group>"; };
+		3FB591CB1796EBD800BE6C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FB591CD1796EBD800BE6C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB591CF1796EBD800BE6C7B /* EjemploNavegaChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EjemploNavegaChat-Prefix.pch"; sourceTree = "<group>"; };
+		3FB591D01796EBD800BE6C7B /* NavegacionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavegacionAppDelegate.h; sourceTree = "<group>"; };
+		3FB591D11796EBD800BE6C7B /* NavegacionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavegacionAppDelegate.m; sourceTree = "<group>"; };
+		3FB591D41796EBD800BE6C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB591D61796EBD800BE6C7B /* NavegacionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavegacionViewController.h; sourceTree = "<group>"; };
+		3FB591D71796EBD800BE6C7B /* NavegacionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavegacionViewController.m; sourceTree = "<group>"; };
+		3FB591D91796EBD800BE6C7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FB591DF1796EBD800BE6C7B /* EjemploNavegaChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploNavegaChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB591E01796EBD800BE6C7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3FB591E81796EBD900BE6C7B /* EjemploNavegaChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploNavegaChatTests-Info.plist"; sourceTree = "<group>"; };
+		3FB591EA1796EBD900BE6C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FB591EC1796EBD900BE6C7B /* EjemploNavegaChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploNavegaChatTests.m; sourceTree = "<group>"; };
+		3FB591F71796EE4B00BE6C7B /* Wallpaper2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper2.png; sourceTree = "<group>"; };
+		3FB591F81796EECF00BE6C7B /* wallpaper_iphone4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper_iphone4.jpg; sourceTree = "<group>"; };
+		3FB591FC17970A5E00BE6C7B /* chatPantallaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatPantallaViewController.h; sourceTree = "<group>"; };
+		3FB591FD17970A5F00BE6C7B /* chatPantallaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatPantallaViewController.m; sourceTree = "<group>"; };
+		3FB59200179717BC00BE6C7B /* Chat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chat.h; sourceTree = "<group>"; };
+		3FB59201179717BC00BE6C7B /* Chat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chat.m; sourceTree = "<group>"; };
+		3FB59202179717BC00BE6C7B /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		3FB59203179717BC00BE6C7B /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		3FB59204179717BC00BE6C7B /* ReceiveMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveMessage.h; sourceTree = "<group>"; };
+		3FB59205179717BC00BE6C7B /* ReceiveMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveMessage.m; sourceTree = "<group>"; };
+		3FB59206179717BC00BE6C7B /* SendMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendMessage.h; sourceTree = "<group>"; };
+		3FB59207179717BC00BE6C7B /* SendMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB591BB1796EBD800BE6C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB591C41796EBD800BE6C7B /* CoreGraphics.framework in Frameworks */,
+				3FB591C61796EBD800BE6C7B /* UIKit.framework in Frameworks */,
+				3FB591C21796EBD800BE6C7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB591DC1796EBD800BE6C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB591E11796EBD900BE6C7B /* XCTest.framework in Frameworks */,
+				3FB591E31796EBD900BE6C7B /* UIKit.framework in Frameworks */,
+				3FB591E21796EBD900BE6C7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB591B51796EBD800BE6C7B = {
+			isa = PBXGroup;
+			children = (
+				3FB591FF179717A600BE6C7B /* Model */,
+				3FB591C71796EBD800BE6C7B /* EjemploNavegaChat */,
+				3FB591E61796EBD900BE6C7B /* EjemploNavegaChatTests */,
+				3FB591C01796EBD800BE6C7B /* Frameworks */,
+				3FB591BF1796EBD800BE6C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB591BF1796EBD800BE6C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591BE1796EBD800BE6C7B /* EjemploNavegaChat.app */,
+				3FB591DF1796EBD800BE6C7B /* EjemploNavegaChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB591C01796EBD800BE6C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591C11796EBD800BE6C7B /* Foundation.framework */,
+				3FB591C31796EBD800BE6C7B /* CoreGraphics.framework */,
+				3FB591C51796EBD800BE6C7B /* UIKit.framework */,
+				3FB591E01796EBD800BE6C7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FB591C71796EBD800BE6C7B /* EjemploNavegaChat */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591FC17970A5E00BE6C7B /* chatPantallaViewController.h */,
+				3FB591FD17970A5F00BE6C7B /* chatPantallaViewController.m */,
+				3FB591F61796EE3800BE6C7B /* MisImagenes */,
+				3FB591D31796EBD800BE6C7B /* Main.storyboard */,
+				3FB591D61796EBD800BE6C7B /* NavegacionViewController.h */,
+				3FB591D71796EBD800BE6C7B /* NavegacionViewController.m */,
+				3FB591D91796EBD800BE6C7B /* Images.xcassets */,
+				3FB591C81796EBD800BE6C7B /* Supporting Files */,
+			);
+			path = EjemploNavegaChat;
+			sourceTree = "<group>";
+		};
+		3FB591C81796EBD800BE6C7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591D01796EBD800BE6C7B /* NavegacionAppDelegate.h */,
+				3FB591D11796EBD800BE6C7B /* NavegacionAppDelegate.m */,
+				3FB591C91796EBD800BE6C7B /* EjemploNavegaChat-Info.plist */,
+				3FB591CA1796EBD800BE6C7B /* InfoPlist.strings */,
+				3FB591CD1796EBD800BE6C7B /* main.m */,
+				3FB591CF1796EBD800BE6C7B /* EjemploNavegaChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB591E61796EBD900BE6C7B /* EjemploNavegaChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591EC1796EBD900BE6C7B /* EjemploNavegaChatTests.m */,
+				3FB591E71796EBD900BE6C7B /* Supporting Files */,
+			);
+			path = EjemploNavegaChatTests;
+			sourceTree = "<group>";
+		};
+		3FB591E71796EBD900BE6C7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591E81796EBD900BE6C7B /* EjemploNavegaChatTests-Info.plist */,
+				3FB591E91796EBD900BE6C7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB591F61796EE3800BE6C7B /* MisImagenes */ = {
+			isa = PBXGroup;
+			children = (
+				3FB591F81796EECF00BE6C7B /* wallpaper_iphone4.jpg */,
+				3FB591F71796EE4B00BE6C7B /* Wallpaper2.png */,
+			);
+			name = MisImagenes;
+			sourceTree = "<group>";
+		};
+		3FB591FF179717A600BE6C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FB59200179717BC00BE6C7B /* Chat.h */,
+				3FB59201179717BC00BE6C7B /* Chat.m */,
+				3FB59202179717BC00BE6C7B /* Message.h */,
+				3FB59203179717BC00BE6C7B /* Message.m */,
+				3FB59204179717BC00BE6C7B /* ReceiveMessage.h */,
+				3FB59205179717BC00BE6C7B /* ReceiveMessage.m */,
+				3FB59206179717BC00BE6C7B /* SendMessage.h */,
+				3FB59207179717BC00BE6C7B /* SendMessage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB591BD1796EBD800BE6C7B /* EjemploNavegaChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB591F01796EBD900BE6C7B /* Build configuration list for PBXNativeTarget "EjemploNavegaChat" */;
+			buildPhases = (
+				3FB591BA1796EBD800BE6C7B /* Sources */,
+				3FB591BB1796EBD800BE6C7B /* Frameworks */,
+				3FB591BC1796EBD800BE6C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjemploNavegaChat;
+			productName = EjemploNavegaChat;
+			productReference = 3FB591BE1796EBD800BE6C7B /* EjemploNavegaChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB591DE1796EBD800BE6C7B /* EjemploNavegaChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB591F31796EBD900BE6C7B /* Build configuration list for PBXNativeTarget "EjemploNavegaChatTests" */;
+			buildPhases = (
+				3FB591DB1796EBD800BE6C7B /* Sources */,
+				3FB591DC1796EBD800BE6C7B /* Frameworks */,
+				3FB591DD1796EBD800BE6C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB591E51796EBD900BE6C7B /* PBXTargetDependency */,
+			);
+			name = EjemploNavegaChatTests;
+			productName = EjemploNavegaChatTests;
+			productReference = 3FB591DF1796EBD800BE6C7B /* EjemploNavegaChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB591B61796EBD800BE6C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Navegacion;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Test.cam.core.curso;
+				TargetAttributes = {
+					3FB591DE1796EBD800BE6C7B = {
+						TestTargetID = 3FB591BD1796EBD800BE6C7B;
+					};
+				};
+			};
+			buildConfigurationList = 3FB591B91796EBD800BE6C7B /* Build configuration list for PBXProject "EjemploNavegaChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB591B51796EBD800BE6C7B;
+			productRefGroup = 3FB591BF1796EBD800BE6C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB591BD1796EBD800BE6C7B /* EjemploNavegaChat */,
+				3FB591DE1796EBD800BE6C7B /* EjemploNavegaChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB591BC1796EBD800BE6C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB591F91796F20100BE6C7B /* Main.storyboard in Resources */,
+				3FB591DA1796EBD800BE6C7B /* Images.xcassets in Resources */,
+				3FB591CC1796EBD800BE6C7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB591DD1796EBD800BE6C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB591EB1796EBD900BE6C7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB591BA1796EBD800BE6C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB591D81796EBD800BE6C7B /* NavegacionViewController.m in Sources */,
+				3FB591CE1796EBD800BE6C7B /* main.m in Sources */,
+				3FB591D21796EBD800BE6C7B /* NavegacionAppDelegate.m in Sources */,
+				3FB591FE17970A5F00BE6C7B /* chatPantallaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB591DB1796EBD800BE6C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB591ED1796EBD900BE6C7B /* EjemploNavegaChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB591E51796EBD900BE6C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB591BD1796EBD800BE6C7B /* EjemploNavegaChat */;
+			targetProxy = 3FB591E41796EBD900BE6C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB591CA1796EBD800BE6C7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB591CB1796EBD800BE6C7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FB591D31796EBD800BE6C7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB591D41796EBD800BE6C7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB591E91796EBD900BE6C7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB591EA1796EBD900BE6C7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB591EE1796EBD900BE6C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FB591EF1796EBD900BE6C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB591F11796EBD900BE6C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploNavegaChat/EjemploNavegaChat-Prefix.pch";
+				INFOPLIST_FILE = "EjemploNavegaChat/EjemploNavegaChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FB591F21796EBD900BE6C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploNavegaChat/EjemploNavegaChat-Prefix.pch";
+				INFOPLIST_FILE = "EjemploNavegaChat/EjemploNavegaChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FB591F41796EBD900BE6C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploNavegaChat.app/EjemploNavegaChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploNavegaChat/EjemploNavegaChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EjemploNavegaChatTests/EjemploNavegaChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3FB591F51796EBD900BE6C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploNavegaChat.app/EjemploNavegaChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploNavegaChat/EjemploNavegaChat-Prefix.pch";
+				INFOPLIST_FILE = "EjemploNavegaChatTests/EjemploNavegaChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB591B91796EBD800BE6C7B /* Build configuration list for PBXProject "EjemploNavegaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB591EE1796EBD900BE6C7B /* Debug */,
+				3FB591EF1796EBD900BE6C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB591F01796EBD900BE6C7B /* Build configuration list for PBXNativeTarget "EjemploNavegaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB591F11796EBD900BE6C7B /* Debug */,
+				3FB591F21796EBD900BE6C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB591F31796EBD900BE6C7B /* Build configuration list for PBXNativeTarget "EjemploNavegaChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB591F41796EBD900BE6C7B /* Debug */,
+				3FB591F51796EBD900BE6C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB591B61796EBD800BE6C7B /* Project object */;
+}

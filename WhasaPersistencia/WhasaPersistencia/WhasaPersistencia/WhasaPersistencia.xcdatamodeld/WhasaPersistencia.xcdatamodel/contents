@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12C54" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Amigo" representedClassName="Amigo" syncable="YES">
+        <attribute name="fechaNacimiento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="conversacion" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Conversacion" inverseName="amigo" inverseEntity="Conversacion" syncable="YES"/>
+    </entity>
+    <entity name="Conversacion" representedClassName="Conversacion" syncable="YES">
+        <attribute name="fechaActualizacion" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="amigo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Amigo" inverseName="conversacion" inverseEntity="Amigo" syncable="YES"/>
+        <relationship name="mensaje" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Mensaje" inverseName="conversacion" inverseEntity="Mensaje" syncable="YES"/>
+    </entity>
+    <entity name="Mensaje" representedClassName="Mensaje" syncable="YES">
+        <attribute name="hora" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="texto" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="conversacion" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Conversacion" inverseName="mensaje" inverseEntity="Conversacion" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Amigo" positionX="-189" positionY="-153" width="128" height="88"/>
+        <element name="Conversacion" positionX="45" positionY="-94" width="128" height="103"/>
+        <element name="Mensaje" positionX="-189" positionY="-9" width="135" height="88"/>
+    </elements>
+</model>

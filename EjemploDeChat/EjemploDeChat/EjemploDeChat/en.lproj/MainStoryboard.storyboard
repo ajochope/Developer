@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gNz-mi-XpO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Navega App View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="NavegaAppViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBB-uf-1gp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="7rR-8H-pbV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Go to Chat">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OHz-GT-wjn" kind="push" identifier="chatPantalla" id="PaN-92-gT5"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="calico" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lX3-oc-B6h">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="bjM-vW-zLm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lX3-oc-B6h" firstAttribute="top" secondItem="3" secondAttribute="top" constant="159" id="Ao5-dp-RKa"/>
+                            <constraint firstItem="lX3-oc-B6h" firstAttribute="centerX" secondItem="GBB-uf-1gp" secondAttribute="centerX" type="default" id="Jg8-VC-Xn9"/>
+                            <constraint firstAttribute="bottom" secondItem="GBB-uf-1gp" secondAttribute="bottom" constant="161" id="c1z-Dp-44R"/>
+                            <constraint firstItem="GBB-uf-1gp" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="eyg-Ow-vfK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bD2-q2-aUm"/>
+                    <connections>
+                        <outlet property="nick" destination="lX3-oc-B6h" id="IOI-4y-FV8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="503" y="-4"/>
+        </scene>
+        <!--Chat Pantalla View Controller-->
+        <scene sceneID="B2k-Dg-N2M">
+            <objects>
+                <viewController id="OHz-GT-wjn" customClass="chatPantallaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YEZ-iV-FbO">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cny-uo-CqM"/>
+                    <connections>
+                        <outlet property="textoNick" destination="Cny-uo-CqM" id="ai3-Oy-kZP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqt-41-Eqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="7"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JVO-Il-kxG">
+            <objects>
+                <navigationController id="gNz-mi-XpO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="93t-Xv-cl9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="BFu-Jb-Bu2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GV9-KP-IXc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="41" y="7"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="NavegaAppViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NavegaAppViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="nick" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="chatPantallaViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/chatPantallaViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textoNick" candidateClass="UINavigationItem"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
